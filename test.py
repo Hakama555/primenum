@@ -8,7 +8,7 @@ def prime_num(var):
     count = 0
     for j in array:
         if j == 1:
-            count += 1
+            count += 1  # 残った１を数える
     print(count)
 var = 1000  # 欲しい数字の上限
 prime_num(var)
